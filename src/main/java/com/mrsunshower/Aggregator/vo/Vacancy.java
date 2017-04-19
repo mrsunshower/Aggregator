@@ -1,4 +1,4 @@
-package com.mrsunshower.Aggregator.vo;
+package com.mrsunshower.aggregator.vo;
 
 /**
  * Created by KenTerror on 14.03.2017.

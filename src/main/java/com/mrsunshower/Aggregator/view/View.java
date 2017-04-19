@@ -1,7 +1,7 @@
-package com.mrsunshower.Aggregator.view;
+package com.mrsunshower.aggregator.view;
 
-import com.mrsunshower.Aggregator.Controller;
-import com.mrsunshower.Aggregator.vo.Vacancy;
+import com.mrsunshower.aggregator.Controller;
+import com.mrsunshower.aggregator.vo.Vacancy;
 
 import java.util.List;
 

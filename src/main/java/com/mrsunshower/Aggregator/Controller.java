@@ -1,6 +1,6 @@
-package com.mrsunshower.Aggregator;
+package com.mrsunshower.aggregator;
 
-import com.mrsunshower.Aggregator.model.Model;
+import com.mrsunshower.aggregator.model.Model;
 
 /**
  * Created by KenTerror on 14.03.2017.

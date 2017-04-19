@@ -1,7 +1,7 @@
-package com.mrsunshower.Aggregator.view;
+package com.mrsunshower.aggregator.view;
 
-import com.mrsunshower.Aggregator.Controller;
-import com.mrsunshower.Aggregator.vo.Vacancy;
+import com.mrsunshower.aggregator.Controller;
+import com.mrsunshower.aggregator.vo.Vacancy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -13,8 +13,7 @@ import java.util.List;
  * Created by KenTerror on 15.03.2017.
  */
 public class HtmlView implements View {
-    private final String filePath = "./src/" + this.getClass().getPackage().getName().replace('.', '/') + "/vacancies.html";
-    //private final String filePath = ".\\4.JavaCollections\\src\\com\\javarush\\task\\task28\\task2810\\view" + "\\vacancies.html";
+    private final String filePath = "./src/main/webapp/vacancies.html";
 
     private Controller controller;
 

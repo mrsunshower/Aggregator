@@ -1,6 +1,6 @@
-package com.mrsunshower.Aggregator.model;
+package com.mrsunshower.aggregator.model;
 
-import com.mrsunshower.Aggregator.vo.Vacancy;
+import com.mrsunshower.aggregator.vo.Vacancy;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.mrsunshower.Aggregator;
+package com.mrsunshower.aggregator;
 
-import com.mrsunshower.Aggregator.model.HHStrategy;
-import com.mrsunshower.Aggregator.model.Model;
-import com.mrsunshower.Aggregator.model.MoikrugStrategy;
-import com.mrsunshower.Aggregator.model.Provider;
-import com.mrsunshower.Aggregator.view.HtmlView;
+import com.mrsunshower.aggregator.model.HHStrategy;
+import com.mrsunshower.aggregator.model.Model;
+import com.mrsunshower.aggregator.model.MoikrugStrategy;
+import com.mrsunshower.aggregator.model.Provider;
+import com.mrsunshower.aggregator.view.HtmlView;
 
 /**
  * Created by KenTerror on 14.03.2017.

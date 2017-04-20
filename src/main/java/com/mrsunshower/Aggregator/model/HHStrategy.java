@@ -14,13 +14,14 @@ import java.util.List;
  * Created by KenTerror on 14.03.2017.
  */
 public class HHStrategy implements Strategy {
-    private static final String URL_FORMAT = "http://hh.ua/search/vacancy?text=java+%s&page=%d";
-    //private static final String URL_FORMAT = "http://93.190.137.51/testdata/big%s%d8data.html";
+    //private static final String URL_FORMAT = "http://hh.ua/search/vacancy?text=java+%s&page=%d";
+    private static final String URL_FORMAT = "http://93.190.137.51/testdata/big%s%d8data.html";
 
     @Override
     public List<Vacancy> getVacancies(String searchString) {
         List<Vacancy> vacancies = new ArrayList<>();
-        int page = 0;
+        int page = 2;
+        searchString = "";
         Document document;
         Elements elements;
         try {
@@ -56,7 +57,7 @@ public class HHStrategy implements Strategy {
 
     protected Document getDocument(String searchString, int page) throws IOException {
         String url = String.format(URL_FORMAT, searchString, page);
-        Document document = Jsoup.connect(url).userAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 OPR/43.0.2442.1144").referrer("none").get();
+        Document document = Jsoup.connect(url).userAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 OPR/44.0.2510.857").referrer("http://www.google.com").get();
 
         return document;
     }

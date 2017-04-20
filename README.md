@@ -1,4 +1,3 @@
-# Aggregator
-Job Aggregator
+# Job Aggregator
 
-MVC + Strategy + Jsoup
+Maven + MVC + Strategy pattern + Jsoup + JUnit. Tested using Tomcat 9.
